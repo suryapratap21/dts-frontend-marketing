@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "end": 56,
+        "operator": "K",
+        "title": "Happy Clients"
+    },
+    {
+        "id": 2,
+        "end": 98,
+        "operator": "%",
+        "title": "Successful Projects"
+    },
+    {
+        "id": 3,
+        "end": 25,
+        "operator": "+",
+        "title": "Ongoing Projects"
+    }
+]

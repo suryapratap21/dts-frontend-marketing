@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "steps": "01",
+        "title": "Project Planning"
+    },
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "steps": "02",
+        "title": "Research & Analysis"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "steps": "03",
+        "title": "Installation & Maintenance"
+    }
+]

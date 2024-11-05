@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "bgThumb": "15.jpg",
+        "subTitle": "Permanent Life",
+        "title": "The easiest way get insurance",
+        "btnText": "Apply Now",
+        "shapeThumb": "43.png",
+        "listInfo": [
+            {
+                "id": 1,
+                "listData": "$1000 Average yearly savings"
+            },
+            {
+                "id": 2,
+                "listData": "Get 20%* off Home"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "bgThumb": "16.jpg",
+        "subTitle": "Home & Renters",
+        "title": "Protecting future inspiring hope",
+        "btnText": "Apply Now",
+        "shapeThumb": "43.png",
+        "listInfo": [
+            {
+                "id": 1,
+                "listData": "$1000 Average yearly savings"
+            },
+            {
+                "id": 2,
+                "listData": "Get 20%* off Home"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "thumb": "10.jpg",
+        "title": "Safe your money",
+        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
+        "icon": "fas fa-sack-dollar"
+    },
+    {
+        "id": 2,
+        "thumb": "9.jpg",
+        "title": "Protect your life",
+        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
+        "icon": "fas fa-umbrella"
+    },
+    {
+        "id": 3,
+        "thumb": "11.jpg",
+        "title": "Make the future bright",
+        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
+        "icon": "fas fa-heartbeat"
+    }
+]

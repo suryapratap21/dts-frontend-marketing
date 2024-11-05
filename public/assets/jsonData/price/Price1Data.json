@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "activeClass": "",
+        "title": "Basic Plan",
+        "text": "Low cost & affordable services to get you started very soon.",
+        "planPrice": "Free",
+        "btnText": "Purchase Plan",
+        "btnClass":"btn-dark",
+        "listData": [
+            {
+                "id": 1,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Increase traffic 130%"
+            },
+            {
+                "id": 2,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Organic traffic 215%"
+            },
+            {
+                "id": 3,
+                "listIcon": "fas fa-times-circle",
+                "listData": "10 Free Optimization"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "title": "Premium Plan",
+        "text": "Increased processing power with multiple sites, storage.",
+        "planCurrency": "$",
+        "planPrice": 29,
+        "planType": "/ Monthly",
+        "btnText": "Purchase Plan",
+        "btnClass":"btn-dark",
+        "listData": [
+            {
+                "id": 1,
+                "listIcon": "fas fa-check-circle",
+                "listData": "1,300 Keywords"
+            },
+            {
+                "id": 2,
+                "listIcon": "fas fa-check-circle",
+                "listData": "SEO Optimized"
+            },
+            {
+                "id": 3,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Live Support"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "activeClass": "active",
+        "title": "Advanced Plan",
+        "text": "Target is processing power with multiple sites, storage.",
+        "planCurrency": "$",
+        "planPrice": 58,
+        "planType": "/ Monthly",
+        "btnText": "Purchase Plan",
+        "btnClass":"btn-theme active-btn",
+        "listData": [
+            {
+                "id": 1,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Increase traffic 130%"
+            },
+            {
+                "id": 2,
+                "listIcon": "fas fa-check-circle",
+                "listData": "BackLink analysis"
+            },
+            {
+                "id": 3,
+                "listIcon": "fas fa-check-circle",
+                "listData": "10 Free Optimization"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "title": "Business Plan",
+        "text": "Mentionling processing power with multiple sites, storage.",
+        "planCurrency": "$",
+        "planPrice": 89,
+        "planType": "/ Monthly",
+        "btnText": "Purchase Plan",
+        "btnClass":"btn-dark",
+        "listData": [
+            {
+                "id": 1,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Increase traffic 130%"
+            },
+            {
+                "id": 2,
+                "listIcon": "fas fa-check-circle",
+                "listData": "BackLink analysis"
+            },
+            {
+                "id": 3,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Organic traffic 215%"
+            },
+            {
+                "id": 4,
+                "listIcon": "fas fa-check-circle",
+                "listData": "10 Free Optimization"
+            },
+            {
+                "id": 5,
+                "listIcon": "fas fa-check-circle",
+                "listData": "Live Support"
+            }
+        ]
+    }
+]

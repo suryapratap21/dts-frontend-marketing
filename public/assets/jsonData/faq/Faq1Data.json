@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "headingId": "headingOne",
+        "btnClass": "",
+        "collapseTarget": "collapseOne",
+        "expanded": "true",
+        "title": "Where can I get analytics help?",
+        "textClass": "show",
+        "text": "Bennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now minute exact dear open to reaching out."
+    },
+    {
+        "id": 2,
+        "headingId": "headingTwo",
+        "btnClass": "collapsed",
+        "collapseTarget": "collapseTwo",
+        "expanded": "false",
+        "title": "How much does data analytics costs?",
+        "textClass": "",
+        "text": "Cennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now minute exact dear open to reaching out."
+    },
+    {
+        "id": 3,
+        "headingId": "headingThree",
+        "btnClass": "collapsed",
+        "collapseTarget": "collapseThree",
+        "expanded": "false",
+        "title": "What kind of data is needed for analysis?",
+        "textClass": "",
+        "text": "Tennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now minute exact dear open to reaching out."
+    },
+    {
+        "id": 4,
+        "headingId": "headingFour",
+        "btnClass": "collapsed",
+        "collapseTarget": "collapseFour",
+        "expanded": "false",
+        "title": "What kind of data is needed for analysis?",
+        "textClass": "",
+        "text": "Tennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now minute exact dear open to reaching out."
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "thumb": "18.jpg",
+        "subTitle": "Best quality solar",
+        "title1": "Light Up With Solar &",
+        "title2": "Save Natural Resource",
+        "btnText": "OUR STORY",
+        "shape": "4.png"
+    },
+    {
+        "id": 2,
+        "thumb": "19.jpg",
+        "subTitle": "Renewable energy",
+        "title1": "Largest Producer of",
+        "title2": "Wind & Solar energy",
+        "btnText": "OUR STORY",
+        "shape": "4.png"
+    }
+]

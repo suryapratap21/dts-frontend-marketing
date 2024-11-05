@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "thumb": "2.jpg",
+        "thumbFull": "2-full.jpg",
+        "activeClass": "",
+        "title": "Commercial Funds",
+        "icon": "flaticon-budget",
+        "text": "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
+        "btnText": "Read More"
+    },
+    {
+        "id": 2,
+        "thumb": "3.jpg",
+        "thumbFull": "3-full.jpg",
+        "activeClass": "",
+        "title": "Markets Research",
+        "icon": "flaticon-bar-chart",
+        "text": "Technic indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
+        "btnText": "Read More"
+    },
+    {
+        "id": 3,
+        "thumb": "4.jpg",
+        "thumbFull": "4-full.jpg",
+        "activeClass": "",
+        "title": "Saving & Investments",
+        "icon": "flaticon-credit-cards",
+        "text": "Librarian indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
+        "btnText": "Read More"
+    },
+    {
+        "id": 4,
+        "thumb": "3.jpg",
+        "thumbFull": "3-full.jpg",
+        "activeClass": "",
+        "title": "Business Planning",
+        "icon": "flaticon-bar-chart",
+        "text": "Technic indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.",
+        "btnText": "Read More"
+    }
+]

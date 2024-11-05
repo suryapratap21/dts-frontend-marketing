@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "tabId": "tab1",
+        "heading1": "Financial security and",
+        "heading2": "protection for our clients",
+        "text": "A Promise of: Financial security and protection for our clients Commitment and fairness to our agents Respect and opportunity for our employees Increasing value and reward for teams.",
+        "tabClass": "show active",
+        "ariaLabel": "nav-id-1",
+        "listData": [
+            {
+                "id": 1,
+                "listInfo": "Commitment and fairness"
+            },
+            {
+                "id": 2,
+                "listInfo": "Respect and opportunity for our employees"
+            },
+            {
+                "id": 3,
+                "listInfo": "Financial security and protection"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tabId": "tab2",
+        "heading1": "Offer our customers",
+        "heading2": "the lowest possible prices",
+        "text": "A Promise of: Financial security and protection for our clients Commitment and fairness to our agents Respect and opportunity for our employees Increasing value and reward for teams.",
+        "tabClass": "",
+        "ariaLabel": "nav-id-2",
+        "listData": [
+            {
+                "id": 1,
+                "listInfo": "Business document"
+            },
+            {
+                "id": 2,
+                "listInfo": "Strategic planning"
+            },
+            {
+                "id": 3,
+                "listInfo": "Financial security and protection"
+            }
+        ]
+    }
+]

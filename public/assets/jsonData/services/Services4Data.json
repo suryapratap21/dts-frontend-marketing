@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Solar Panel Services",
+        "text": "Celebrated share of first to worse. Weddings and any opinions suitable smallest nay. Houses or months settle remove ladies appear engrossed.",
+        "icon": "9.png",
+        "btnText": "Read More",
+        "thumb": "5.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Turbines Services",
+        "text": "Celebrated share of first to worse. Weddings and any opinions suitable smallest nay. Houses or months settle remove ladies appear engrossed.",
+        "icon": "10.png",
+        "btnText": "Read More",
+        "thumb": "6.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Hydropower Plants",
+        "text": "Celebrated share of first to worse. Weddings and any opinions suitable smallest nay. Houses or months settle remove ladies appear engrossed.",
+        "icon": "11.png",
+        "btnText": "Read More",
+        "thumb": "7.jpg"
+    }
+]

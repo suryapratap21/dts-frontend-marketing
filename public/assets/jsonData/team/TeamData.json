@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "memberThumb": "1.jpg",
+        "designation": "CEO & Founder",
+        "name": "Md Sohag",
+        "email": "sohag@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "memberThumb": "2.jpg",
+        "designation": "Product Manager",
+        "name": "Kevin Martin",
+        "email": "kevin@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "memberThumb": "8.jpg",
+        "designation": "Financial Consultant",
+        "name": "Sarah Albert",
+        "email": "sarah@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "memberThumb": "4.jpg",
+        "designation": "Developer",
+        "name": "Aleesha Brown",
+        "email": "aleesha@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "activeClass": "",
+        "memberThumb": "3.jpg",
+        "designation": "CEO & Founder",
+        "name": "Istiak Ahmed",
+        "email": "ahmed@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "activeClass": "",
+        "memberThumb": "7.jpg",
+        "designation": "Product Manager",
+        "name": "Kevin Martin",
+        "email": "kevin@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "activeClass": "",
+        "memberThumb": "5.jpg",
+        "designation": "Financial Consultant",
+        "name": "Sarah Albert",
+        "email": "sarah@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "activeClass": "",
+        "memberThumb": "4.jpg",
+        "designation": "Developer",
+        "name": "Aleesha Brown",
+        "email": "aleesha@digital.com",
+        "skillProgress": [
+            {
+                "id": 1,
+                "title": "Programming Language",
+                "end": 88
+            },
+            {
+                "id": 2,
+                "title": "Backend Development",
+                "end": 95
+            },
+            {
+                "id": 3,
+                "title": "Product Design",
+                "end": 80
+            }
+        ],
+        "memberData": [
+            {
+                "id": 1,
+                "listTitle": "Education",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Residential College",
+                        "info": "BA Honours - Biology",
+                        "timeSpan": "2004 - 2008"
+                    },
+                    {
+                        "id": 2,
+                        "title": "University of Iowa",
+                        "info": "Master's degree - Macroeconomics",
+                        "timeSpan": "2009 - 2012"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listTitle": "Experience",
+                "memberInfo": [
+                    {
+                        "id": 1,
+                        "title": "Product Manager",
+                        "info": "Samsung Bangladesh",
+                        "timeSpan": "31 Aug, 2013"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Senior Marketing",
+                        "info": "Manuring Technology Company",
+                        "timeSpan": "12 Dec 2018"
+                    }
+                ]
+            }
+        ]
+    }
+]

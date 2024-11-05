@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "thumb": "5.jpg",
+        "thumbFull": "5-full.jpg",
+        "activeClass": "active",
+        "tag": "Consulting, Recruitment",
+        "title": "Coping Under the Current Climate",
+        "projectData": [
+            {
+                "id": 1,
+                "title": "Mobile Optimization",
+                "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
+            },
+            {
+                "id": 2,
+                "title": "Marketing Automation",
+                "info": "Account carried. Excellence projecting is devonshire dispatched remarkably."
+            },
+            {
+                "id": 3,
+                "title": "Robust Analytics",
+                "info": "Civilly amiable pleased account carried. Excellence projecting is devonshire dispatched."
+            },
+            {
+                "id": 4,
+                "title": "Third-party Integrations",
+                "info": "Amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "thumb": "3.jpg",
+        "thumbFull": "3-full.jpg",
+        "activeClass": "",
+        "tag": "Consulting, Recruitment",
+        "title": "Purpose-Driven Employers Succeed",
+        "projectData": [
+            {
+                "id": 1,
+                "title": "Mobile Optimization",
+                "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
+            },
+            {
+                "id": 2,
+                "title": "Marketing Automation",
+                "info": "Account carried. Excellence projecting is devonshire dispatched remarkably."
+            },
+            {
+                "id": 3,
+                "title": "Robust Analytics",
+                "info": "Civilly amiable pleased account carried. Excellence projecting is devonshire dispatched."
+            },
+            {
+                "id": 4,
+                "title": "Third-party Integrations",
+                "info": "Amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "thumb": "2.jpg",
+        "thumbFull": "2-full.jpg",
+        "activeClass": "",
+        "tag": "Consulting, Recruitment",
+        "title": "Share Statistics With Team Leader",
+        "projectData": [
+            {
+                "id": 1,
+                "title": "Mobile Optimization",
+                "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
+            },
+            {
+                "id": 2,
+                "title": "Marketing Automation",
+                "info": "Account carried. Excellence projecting is devonshire dispatched remarkably."
+            },
+            {
+                "id": 3,
+                "title": "Robust Analytics",
+                "info": "Civilly amiable pleased account carried. Excellence projecting is devonshire dispatched."
+            },
+            {
+                "id": 4,
+                "title": "Third-party Integrations",
+                "info": "Amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "thumb": "6.jpg",
+        "thumbFull": "6-full.jpg",
+        "activeClass": "",
+        "tag": "Consulting, Recruitment",
+        "title": "Nifty Teams Respond After Crisis",
+        "projectData": [
+            {
+                "id": 1,
+                "title": "Mobile Optimization",
+                "info": "See general few civilly amiable pleased account carried. Excellence projecting is devonsh"
+            },
+            {
+                "id": 2,
+                "title": "Marketing Automation",
+                "info": "Account carried. Excellence projecting is devonshire dispatched remarkably."
+            },
+            {
+                "id": 3,
+                "title": "Robust Analytics",
+                "info": "Civilly amiable pleased account carried. Excellence projecting is devonshire dispatched."
+            },
+            {
+                "id": 4,
+                "title": "Third-party Integrations",
+                "info": "Amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably."
+            }
+        ]
+    }
+]

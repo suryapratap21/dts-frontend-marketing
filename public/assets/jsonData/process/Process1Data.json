@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "thumb": "3.jpg",
+        "activeClass": "active",
+        "steps": "01",
+        "title": "Differentiate from the competition",
+        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+    },
+    {
+        "id": "2",
+        "thumb": "6.jpg",
+        "activeClass": "",
+        "steps": "02",
+        "title": "Target the right people effectively",
+        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+    },
+    {
+        "id": "3",
+        "thumb": "5.jpg",
+        "activeClass": "",
+        "steps": "03",
+        "title": "Communicate your story consistently",
+        "text": "Capitalize on low hanging fruit to identify a ballpark value added."
+    }
+]

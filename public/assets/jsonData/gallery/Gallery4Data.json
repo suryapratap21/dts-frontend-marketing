@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "title": "Synergy Solar Solutions",
+        "subTitle": "250.43 KWP SYSTEM"
+    },
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "title": "The Solar Scheme",
+        "subTitle": "380.56 KWP SYSTEM"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "title": "Tristar Solar",
+        "subTitle": "1200 KWP SYSTEM"
+    },
+    {
+        "id": 4,
+        "thumb": "4.jpg",
+        "title": "Sunrayz Energies",
+        "subTitle": "688.25 KWP SYSTEM"
+    },
+    {
+        "id": 5,
+        "thumb": "5.jpg",
+        "title": "The Solar Scheme<",
+        "subTitle": "380.56 KWP SYSTEM"
+    },
+    {
+        "id": 6,
+        "thumb": "1.jpg",
+        "title": "Synergy Solar Solutions",
+        "subTitle": "250.43 KWP SYSTEM"
+    }
+]

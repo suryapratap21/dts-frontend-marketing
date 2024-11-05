@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "icon": "fas fa-hands-heart",
+        "title": "Life Insurance",
+        "text": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+    },
+    {
+        "id": 2,
+        "icon": "fas fa-umbrella",
+        "title": "Business Insurance",
+        "text": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+    },
+    {
+        "id": 3,
+        "icon": "fas fa-stethoscope",
+        "title": "Health Insurance",
+        "text": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+    },
+    {
+        "id": 4,
+        "icon": "fas fa-home",
+        "title": "Home Insurance",
+        "text": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+    },
+    {
+        "id": 5,
+        "icon": "fas fa-car",
+        "title": "Car Insurance",
+        "text": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position."
+    }
+]

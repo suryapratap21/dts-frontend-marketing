@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "activeClass": "",
+        "tabId": "tab1",
+        "tabLabel": "nav-id-1",
+        "thumb": "4.jpg",
+        "title": "Collaboration with customers",
+        "text": "Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon."
+    },
+    {
+        "id": 2,
+        "activeClass": "show active",
+        "tabId": "tab2",
+        "tabLabel": "nav-id-2",
+        "thumb": "5.jpg",
+        "title": "Software Design & Technology Prepare",
+        "text": "Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon."
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "tabId": "tab3",
+        "tabLabel": "nav-id-3",
+        "thumb": "6.jpg",
+        "title": "Final Customization for the product launch",
+        "text": "Bndulgence diminution so discovered apartments. Are off under folly percenta wrote cause her way spite. Plan upon."
+    }
+]
