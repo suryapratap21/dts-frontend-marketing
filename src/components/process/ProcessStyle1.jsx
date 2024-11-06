@@ -11,7 +11,7 @@ const locationData = [
       "https://primedrug.s3.amazonaws.com/tenantDomain/Prime%20Drug%20Testing%20Locations%20-%20Seattle%2C%20WA.png/18831fdf-a8e6-4a37-add9-b2053ddd878b.png",
     steps: "01",
     title: "Prime Drug Testing SEA",
-    location: "16027 Broadway Avenue, Snohomish, WA, USA",
+    location: "16027 Broadway Avenue, Snohomish, WA",
     email: "sea@drugtestingsites.com",
   },
   {
@@ -20,7 +20,7 @@ const locationData = [
       "https://primedrug.s3.amazonaws.com/tenantDomain/Prime%20Drug%20Testing%20Locations%20-Bakersfield%2C%20CA.jpg/75e2f980-f312-4db3-b471-d424be240e45.jpeg",
     steps: "02",
     title: "Prime Drug Testing BFL",
-    location: "8500 Harris Road, Bakersfield, CA, USA.",
+    location: "8500 Harris Road, Bakersfield, CA",
     email: "bfl@drugtestingsites.com",
   },
   {
@@ -29,7 +29,7 @@ const locationData = [
       "https://primedrug.s3.amazonaws.com/tenantDomain/1711664169309-b6caafba-a184-4fc6-b93f-5288bf89d891_1.jpg/0f6034ea-b9c9-4af3-bffe-451232a94b20.jpeg",
     steps: "03",
     title: "Prime Drug Testing Lathrop",
-    location: "143 D'Arcy Parkway, Lathrop, CA, USA.",
+    location: "143 D'Arcy Parkway, Lathrop, CA",
     email: "lathrop@drugtestingsites.com",
   },
 ];
