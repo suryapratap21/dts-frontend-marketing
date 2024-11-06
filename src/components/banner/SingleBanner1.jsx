@@ -13,7 +13,7 @@ const SingleBanner1 = ({ banner }) => {
       ></div>
       <div className="container">
         <div className="row align-center">
-          <div className="col-xl-7 offset-xl-5">
+          <div className="col-xl-7 offset-xl-2">
             <div className="content">
               <h4>{title}</h4>
               <h2>
