@@ -149,7 +149,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
               <div className="col-lg-6 text-end">
                 <ul>
                   <li>
-                    <Link href="/faq">Terms</Link>
+                    <Link href="/terms">Terms</Link>
                   </li>
                   <li>
                     <Link href="/about-us">Privacy</Link>

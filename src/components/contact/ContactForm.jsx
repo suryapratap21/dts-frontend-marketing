@@ -102,11 +102,60 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
+
+        <div className="row my-4">
+          <div className="col-lg-12">
+            <div className="d-flex align-items-center">
+              <input
+                className="mb-0 min-h-0"
+                style={{
+                  minWidth: "1rem",
+                  marginRight: "10px",
+                  minHeight: "1rem",
+                }}
+                id="text-back"
+                name="text-back"
+                type="checkbox"
+                required
+              />{" "}
+              <span className="lh-sm">
+                You may use my number to text me back**
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="row my-4">
+          <div className="col-lg-12">
+            <div className="d-flex align-items-center">
+              <input
+                className="mb-0 min-h-0"
+                style={{
+                  minWidth: "1rem",
+                  marginRight: "10px",
+                  minHeight: "1rem",
+                }}
+                id="text-back"
+                name="text-back"
+                type="checkbox"
+                required
+              />{" "}
+              <span className="lh-sm">
+                Send me text messages with offers and promotions**
+              </span>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col-lg-12">
             <button type="submit" name="submit" id="submit">
               <i className="fa fa-paper-plane"></i> Get in Touch
             </button>
+          </div>
+        </div>
+
+        <div className="row my-4">
+          <div className="col-lg-12">
+            **Standard carrier rates may apply. Text 'stop' to cancel.
           </div>
         </div>
         <div className="col-lg-12 alert-notification">
