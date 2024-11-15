@@ -14,7 +14,7 @@ const ContactInfo = () => {
               <i className="fas fa-phone-alt"></i>
             </div>
             <div className="content">
-              <h5 className="title">Call Us Today</h5>
+              <h5 className="title">Text Us Today</h5>
               <a href="tel:+12094176300">+1 (209) 417-6300</a>
             </div>
           </li>
