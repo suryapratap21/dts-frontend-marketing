@@ -37,7 +37,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
           </ul>
         </li>
         <li>
-          <Link href="/#">Pricing</Link>
+          <Link href="/pricing">Pricing</Link>
         </li>
         <li>
           <Link href="/contact-us">Contact</Link>

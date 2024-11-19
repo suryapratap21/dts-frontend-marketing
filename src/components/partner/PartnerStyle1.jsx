@@ -1,10 +1,10 @@
 import React from "react";
-import logo1 from "@/assets/img/logo/1.png";
-import logo2 from "@/assets/img/logo/2.png";
-import logo4 from "@/assets/img/logo/4.png";
-import logo5 from "@/assets/img/logo/5.png";
-import logo6 from "@/assets/img/logo/6.png";
-import logo7 from "@/assets/img/logo/7.png";
+import logo1 from "@/assets/new-img/labs/alere.png";
+import logo2 from "@/assets/new-img/labs/crl.webp";
+import logo4 from "@/assets/new-img/labs/labcorp.png";
+import logo5 from "@/assets/new-img/labs/omega.webp";
+import logo6 from "@/assets/new-img/labs/psychemedics.webp";
+import logo7 from "@/assets/new-img/labs/quest.jpeg";
 import Image from "next/image";
 
 const PartnerStyle1 = ({ sectionClass }) => {
@@ -25,7 +25,7 @@ const PartnerStyle1 = ({ sectionClass }) => {
                   //   style={{ backgroundImage: `url(/assets/img/banner/10.jpg)` }}
                   style={{ backgroundColor: "#000" }}
                 >
-                  30+
+                  10K+
                 </h2>
                 <h4>Partner Locations in North America</h4>
               </div>

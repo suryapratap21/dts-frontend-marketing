@@ -1,34 +1,34 @@
 [
-    {
-        "id": 1,
-        "ratings": 5,
-        "title": "The best service ever",
-        "text": "Targetingconsultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point.",
-        "name": "Matthew J. Wyman",
-        "designation": "Senior Consultant"
-    },
-    {
-        "id": 2,
-        "ratings": 5,
-        "title": "Awesome Business opportunities",
-        "text": "Consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point another pointing go here.",
-        "name": "Istiak Ahmed",
-        "designation": "Senior Consultant"
-    },
-    {
-        "id": 3,
-        "ratings": 5,
-        "title": "The best service ever",
-        "text": "Targetingconsultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point.",
-        "name": "Matthew J. Wyman",
-        "designation": "Senior Consultant"
-    },
-    {
-        "id": 4,
-        "ratings": 5,
-        "title": "Awesome Business opportunities",
-        "text": "Consultation discover apartments. ndulgence off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now always remembering to the point another pointing go here.",
-        "name": "Istiak Ahmed",
-        "designation": "Senior Consultant"
-    }
+  {
+    "id": 1,
+    "ratings": 5,
+    "title": "Fast, reliable, and hassle-free drug testing",
+    "text": "For truck drivers seeking fast, reliable, and hassle-free drug testing, Prime Drug Testing is top-notch. They understand the trucking industry's demands and provide quick, accurate results, so you can get back on the road without delays. Their friendly staff is experienced in working with CDL holders, ensuring the process is smooth and compliant with DOT regulations. If you're looking for professional service and peace of mind, Prime Drug Testing is the place to go!",
+    "name": "Harry Dhillon",
+    "designation": ""
+  },
+  {
+    "id": 2,
+    "ratings": 5,
+    "title": "No wait time, recommend to others",
+    "text": "Very friendly, and helpful. No wait time, while doing random drug test for my company. Will recommend to others for fast and friendly experience.",
+    "name": "Omar Rubio",
+    "designation": ""
+  },
+  {
+    "id": 3,
+    "ratings": 5,
+    "title": "Best hassle-free drug testing",
+    "text": "For truck drivers seeking fast, reliable, and hassle-free drug testing, Prime Drug Testing is top-notch. They understand the trucking industry's demands and provide quick, accurate results, so you can get back on the road without delays.",
+    "name": "Sandhu Gurjeet",
+    "designation": ""
+  },
+  {
+    "id": 4,
+    "ratings": 5,
+    "title": "Professional, fast, efficient",
+    "text": "Professional, fast, efficient, friendly and reliable client service and process. The office is clean and easy to find. No wait. I would come here again for the ease of the processes.",
+    "name": "Paola",
+    "designation": ""
+  }
 ]

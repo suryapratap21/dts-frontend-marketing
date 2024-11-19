@@ -57,7 +57,7 @@ const MainHeaderStyle1 = () => {
                   <div className="attr-nav">
                     <ul>
                       <li className="button">
-                        <Link href="/contact-us">Schedule Appointment</Link>
+                        <Link href="/pricing">Enroll Now</Link>
                       </li>
                     </ul>
                   </div>
