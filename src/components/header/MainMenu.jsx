@@ -23,7 +23,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
           </Link>
           <ul className="dropdown-menu">
             <li>
-              <Link href="/#">DOT Drug Testing</Link>
+              <Link href="/services/dot-drug-testing">DOT Drug Testing</Link>
             </li>
             <li>
               <Link href="/#">Drug & Alcohol Clearinghouse</Link>
