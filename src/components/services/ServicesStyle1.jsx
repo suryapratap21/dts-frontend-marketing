@@ -44,7 +44,12 @@ const servicesData = [
           Services
         </p>
         <div className="pt-10">
-          <button className="button learn-more-btn">Learn More</button>
+          <Link
+            href="/services/dot-drug-testing"
+            className="button learn-more-btn"
+          >
+            Learn More
+          </Link>
         </div>
       </>
     ),
@@ -209,7 +214,7 @@ const ServicesStyle1 = () => {
                     aria-selected="false"
                   >
                     <i className="flaticon-group"></i>
-                    DQ Management
+                    DQ File Management
                   </button>
                   <button
                     className="nav-link"

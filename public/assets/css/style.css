@@ -5065,7 +5065,6 @@ p {
   z-index: 1;
   padding-left: 25px;
   margin-top: 8px;
-  font-weight: 500;
 }
 
 .feature-list-item li::after {
@@ -5311,15 +5310,16 @@ p {
   background: var(--bg-gray);
 }
 
-.services-list-widget a {
+.services-list-widget li {
   display: block;
   padding: 10px 0;
   font-weight: 600;
   position: relative;
   padding-right: 50px;
+  cursor: pointer;
 }
 
-.services-list-widget .current-item a {
+.services-list-widget .current-item {
   color: var(--color-primary);
   font-weight: 600;
 }
@@ -5361,7 +5361,7 @@ p {
   opacity: 0;
 }
 
-.services-list-widget .current-item a::after {
+.services-list-widget .current-item::after {
   opacity: 1;
 }
 
