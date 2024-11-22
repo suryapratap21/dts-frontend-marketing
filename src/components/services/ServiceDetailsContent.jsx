@@ -91,10 +91,12 @@ const ServiceDetailsContent = () => {
                       office and we will connect you with a team member help.
                     </p>
                     <h2>
-                      <a href="tel:+(012) 6679545">+(012) 6679545</a>
+                      <a href="+12094176300">+1 (209) 417-6300</a>
                     </h2>
                     <h4>
-                      <a href="mailto:info@digital.com">info@digital.com</a>
+                      <a href="mailto:info@drugtestingsites.com">
+                        info@drugtestingsites.com
+                      </a>
                     </h4>
                     <Link
                       className="btn mt-30 circle btn-sm btn-gradient"
@@ -224,10 +226,12 @@ const ServiceDetailsContent = () => {
                       office and we will connect you with a team member help.
                     </p>
                     <h2>
-                      <a href="tel:+(012) 6679545">+(012) 6679545</a>
+                      <a href="+12094176300">+1 (209) 417-6300</a>
                     </h2>
                     <h4>
-                      <a href="mailto:info@digital.com">info@digital.com</a>
+                      <a href="mailto:info@drugtestingsites.com">
+                        info@drugtestingsites.com
+                      </a>
                     </h4>
                     <Link
                       className="btn mt-30 circle btn-sm btn-gradient"
