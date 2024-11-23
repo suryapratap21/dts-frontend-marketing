@@ -61,26 +61,6 @@ const ServiceDetailsContent = () => {
                             .replace(/^\w/, (c) => c.toUpperCase())}
                         </li>
                       ))}
-
-                      {/* 
-                      <li>
-                        <Link href="#">Pre-Employment</Link>
-                      </li>
-                      <li className="current-item">
-                        <Link href="#">Post Accident</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Random</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Reasonable Suspicion</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Return-to-Duty</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Follow Up</Link>
-                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -92,8 +72,8 @@ const ServiceDetailsContent = () => {
                   <div className="content">
                     <h3>Need Help?</h3>
                     <p>
-                      Speak with a human to filling out a form? call corporate
-                      office and we will connect you with a team member help.
+                      Contact us for any kind of queries. We are here for your
+                      service.
                     </p>
                     <h2>
                       <a href="+12094176300">+1 (209) 417-6300</a>
@@ -227,8 +207,8 @@ const ServiceDetailsContent = () => {
                   <div className="content">
                     <h3>Need Help?</h3>
                     <p>
-                      Speak with a human to filling out a form? call corporate
-                      office and we will connect you with a team member help.
+                      Contact us for any kind of queries. We are here for your
+                      service.
                     </p>
                     <h2>
                       <a href="+12094176300">+1 (209) 417-6300</a>
