@@ -13,7 +13,7 @@ const PreEmploymentService = () => {
       </p>
       <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
         <div className="row">
-          <div className="col">
+          <div className="col-sm-12 col-md-6">
             <div className="content">
               <h3>Types of Tests</h3>
               <ul className="feature-list-item">
@@ -32,7 +32,7 @@ const PreEmploymentService = () => {
               </ul>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm-12 col-md-6">
             <div className="content">
               <h3>Drugs Typically Screened</h3>
               <ul className="feature-list-item">
