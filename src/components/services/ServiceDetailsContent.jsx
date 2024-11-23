@@ -6,6 +6,7 @@ import PreEmploymentService from "../dts/services/PreEmploymentService";
 import PostAccidentService from "../dts/services/PostAccidentService";
 import RandomService from "../dts/services/RandomService";
 import ReasonableSuspicionService from "../dts/services/ReasonableSuspicionService";
+import ReturnToDutyService from "../dts/services/ReturnToDutyService";
 
 const ServiceDetailsContent = () => {
   const [selected, setSelected] = React.useState("pre-employment");
@@ -19,6 +20,10 @@ const ServiceDetailsContent = () => {
       case "random":
         return <RandomService />;
       case "reasonable-suspicion":
+        return <ReasonableSuspicionService />;
+      case "return-to-duty":
+        return <ReturnToDutyService />;
+      case "follow-up":
         return <ReasonableSuspicionService />;
       default:
         return null;
