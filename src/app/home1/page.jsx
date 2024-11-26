@@ -9,7 +9,8 @@ import ProcessStyle1 from "@/components/process/ProcessStyle1";
 // import RequestCallStyle1 from "@/components/request/RequestCallStyle1";
 import ServicesStyle1 from "@/components/services/ServicesStyle1";
 // import TeamStyle1 from "@/components/team/TeamStyle1";
-import TestimonialStyle1 from "@/components/testimonial/TestimonialStyle1";
+// import TestimonialStyle1 from "@/components/testimonial/TestimonialStyle1";
+import TestimonialStyle2 from "@/components/testimonial/TestimonialStyle2";
 import React from "react";
 
 export const metadata = {
@@ -29,7 +30,7 @@ const Home1 = () => {
         {/* <TeamStyle1 sectionClass="bg-gray" teamTitle={true} /> */}
         {/* <ProjectStyle1 /> */}
         {/* <RequestCallStyle1 /> */}
-        <TestimonialStyle1 />
+        <TestimonialStyle2 />
         {/* <BlogStyle1 sectionClass="bg-gray" /> */}
       </LayoutStyle1>
     </>

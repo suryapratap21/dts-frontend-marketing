@@ -26,13 +26,19 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
               <Link href="/services/dot-drug-testing">DOT Drug Testing</Link>
             </li>
             <li>
-              <Link href="/#">Drug & Alcohol Clearinghouse</Link>
+              <Link href="/services/clearinghouse">
+                Drug & Alcohol Clearinghouse
+              </Link>
             </li>
             <li>
-              <Link href="/#">Driver Qualification File Management System</Link>
+              <Link href="/services/dq-file-management">
+                Driver Qualification File Management System
+              </Link>
             </li>
             <li>
-              <Link href="/#">Background Check</Link>
+              <Link href="/services/random-management">
+                Random Consortium Management
+              </Link>
             </li>
           </ul>
         </li>

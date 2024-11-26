@@ -75,7 +75,12 @@ const servicesData = [
           positive drug or alcohol test results and test refusals
         </p>
         <div className="pt-10">
-          <button className="button learn-more-btn">Learn More</button>
+          <Link
+            href="/services/clearinghouse"
+            className="button learn-more-btn"
+          >
+            Learn More
+          </Link>
         </div>
       </>
     ),
@@ -122,7 +127,12 @@ const servicesData = [
           and make sure to keep them compliant for the next audit
         </p>
         <div className="pt-10">
-          <button className="button learn-more-btn">Learn More</button>
+          <Link
+            href="/services/dq-file-management"
+            className="button learn-more-btn"
+          >
+            Learn More
+          </Link>
         </div>
       </>
     ),
@@ -135,20 +145,25 @@ const servicesData = [
     render: (
       <>
         <h4>
-          <a>Background Checks</a>
+          <a>DOT Random Consortium Management</a>
         </h4>
         <p className="">
-          Background checks verify a potential employee’s work history, previous
-          experience, and level of education. It can uncover any inaccuracies or
-          omissions on a resume as well as past criminal activity. An essential
-          part of the hiring process, background checks allow employees to make
-          informed decisions. It’s important, however, that the background check
-          process be consistent, legal, and fair to all. A fair, consistent, and
-          accurate process for running background checks should assist employers
-          in making the right decision in bringing on a new worker
+          A DOT Random Consortium manages the random selection and testing
+          process for employees in safety-sensitive positions, such as those in
+          transportation industries regulated by the DOT. It is a group-based
+          program that helps small employers meet the Department of
+          Transportation (DOT) requirements for random drug and alcohol testing.
+          It pools employees from multiple companies into a single group,
+          ensuring compliance with DOT regulations in an efficient and
+          cost-effective manner
         </p>
         <div className="pt-10">
-          <button className="button learn-more-btn">Learn More</button>
+          <Link
+            href="/services/random-management"
+            className="button learn-more-btn"
+          >
+            Learn More
+          </Link>
         </div>
       </>
     ),
@@ -187,7 +202,7 @@ const ServicesStyle1 = () => {
                     aria-controls="tab1"
                     aria-selected="true"
                   >
-                    <i className="flaticon-list"></i>
+                    <i className="flaticon-career"></i>
                     DOT Drug Testing
                   </button>
                   <button
@@ -226,8 +241,8 @@ const ServicesStyle1 = () => {
                     aria-controls="tab4"
                     aria-selected="false"
                   >
-                    <i className="flaticon-career"></i>
-                    Background Check
+                    <i className="flaticon-list"></i>
+                    Random Consortium
                   </button>
                 </div>
               </div>
