@@ -1,15 +1,26 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import PreEmploymentService from "../dts/services/PreEmploymentService";
 import PostAccidentService from "../dts/services/PostAccidentService";
 import RandomService from "../dts/services/RandomService";
 import ReasonableSuspicionService from "../dts/services/ReasonableSuspicionService";
 import ReturnToDutyService from "../dts/services/ReturnToDutyService";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const ServiceDetailsContent = () => {
-  const [selected, setSelected] = React.useState("pre-employment");
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const initialService = searchParams.get("service") || "pre-employment";
+
+  const [selected, setSelected] = React.useState(
+    initialService || "pre-employment"
+  );
+
+  useEffect(() => {
+    setSelected(initialService);
+  }, [initialService]);
 
   const renderServiceDetails = () => {
     switch (selected) {
@@ -53,7 +64,11 @@ const ServiceDetailsContent = () => {
                           className={`cursor-pointer ${
                             selected === service ? "current-item" : ""
                           }`}
-                          onClick={() => setSelected(service)}
+                          onClick={() => {
+                            router.replace(
+                              `/services/dot-drug-testing?service=${service}`
+                            );
+                          }}
                           key={service}
                         >
                           {service

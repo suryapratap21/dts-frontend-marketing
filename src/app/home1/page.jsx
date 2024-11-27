@@ -22,8 +22,8 @@ const Home1 = () => {
     <>
       <LayoutStyle1>
         <BannerStyle1 />
-        <AboutStyle1 />
         <ServicesStyle1 />
+        <AboutStyle1 />
         <ProcessStyle1 />
         <ChooseStyle1 />
         <PartnerStyle1 sectionClass="default-padding" />

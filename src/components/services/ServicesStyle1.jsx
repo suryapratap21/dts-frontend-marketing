@@ -19,22 +19,34 @@ const servicesData = [
         </h4>
         <div className="row">
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Pre Employment
+            <Link href="/services/dot-drug-testing?service=pre-employment">
+              <i className="fas fa-check-circle"></i> Pre Employment
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Post Accident
+            <Link href="/services/dot-drug-testing?service=post-accident">
+              <i className="fas fa-check-circle"></i> Post Accident
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Random
+            <Link href="/services/dot-drug-testing?service=random">
+              <i className="fas fa-check-circle"></i> Random
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Reasonable Suspicion
+            <Link href="/services/dot-drug-testing?service=reasonable-suspicion">
+              <i className="fas fa-check-circle"></i> Reasonable Suspicion
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Return-to-Duty
+            <Link href="/services/dot-drug-testing?service=return-to-duty">
+              <i className="fas fa-check-circle"></i> Return to Duty
+            </Link>
           </div>
           <div className="col-lg-6 col-md-6">
-            <i className="fas fa-check-circle"></i> Follow Up
+            <Link href="/services/dot-drug-testing?service=follow-up">
+              <i className="fas fa-check-circle"></i> Follow Up
+            </Link>
           </div>
         </div>
         <p className="pt-50">
