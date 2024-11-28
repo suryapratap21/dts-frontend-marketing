@@ -1,6 +1,6 @@
 import React from "react";
-import SinglePrice1 from "./SinglePrice1";
-import Price1Data from "@/assets/jsonData/price/Price1Data.json";
+// import SinglePrice1 from "./SinglePrice1";
+// import Price1Data from "@/assets/jsonData/price/Price1Data.json";
 import PriceTitle from "./PriceTitle";
 import Link from "next/link";
 
@@ -48,7 +48,7 @@ const dotRandom = {
       price: 60.0,
       regularPrice: 75.0,
     },
-    { id: 3, title: "Random Drug Test", price: 60.0, regularPrice: 75.0 },
+    // { id: 3, title: "Random Drug Test", price: 60.0, regularPrice: 75.0 },
     { id: 4, title: "Breath Alcohol Test", price: 75.0, regularPrice: 85.0 },
   ],
   buttonText: "Select",
