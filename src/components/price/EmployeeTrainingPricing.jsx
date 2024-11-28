@@ -276,7 +276,12 @@ const CourseCard = ({ course }) => {
   }, [isExpanded]);
 
   return (
-    <div className="col-xl-6 col-md-6">
+    <div
+      className="col-xl-6 col-md-6 course-pricing-wrapper"
+      style={{
+        backgroundImage: "url(/assets/img/shape/15.webp)",
+      }}
+    >
       <div className="course-pricing-card">
         <div
           onClick={toggleExpand}
@@ -305,14 +310,25 @@ const CourseCard = ({ course }) => {
           <div
             style={{
               display: "flex",
-              gap: "1rem",
-              alignItems: "center",
+              justifyContent: "space-between",
+              alignItems: "start",
             }}
           >
-            <h3>{course.price}</h3>
-            <h6>
-              <i class="fas fa-stopwatch"></i>: {course.duration}
-            </h6>
+            <div
+              style={{
+                display: "flex",
+                gap: "1rem",
+                alignItems: "center",
+              }}
+            >
+              <h3>{course.price}</h3>
+              <h6>
+                <i class="fas fa-stopwatch"></i>: {course.duration}
+              </h6>
+            </div>
+            <div className="rounded-btn">
+              <i class="fas fa-cart-plus"></i>
+            </div>
           </div>
           <p>
             {isExpanded
@@ -336,9 +352,17 @@ const CourseCard = ({ course }) => {
             </ul>
           )}
         </div>
-        <button onClick={toggleExpand}>
-          {isExpanded ? "Collapse" : "Expand"}
-        </button>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "end",
+            marginTop: "1rem",
+          }}
+        >
+          <button className="transparent-btn" onClick={toggleExpand}>
+            {isExpanded ? "Collapse" : "Expand"}
+          </button>
+        </div>
       </div>
     </div>
   );
