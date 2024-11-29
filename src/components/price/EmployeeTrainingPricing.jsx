@@ -276,13 +276,13 @@ const CourseCard = ({ course }) => {
   }, [isExpanded]);
 
   return (
-    <div
-      className="col-xl-6 col-md-6 course-pricing-wrapper"
-      style={{
-        backgroundImage: "url(/assets/img/shape/15.webp)",
-      }}
-    >
-      <div className="course-pricing-card">
+    <div className="col-xl-6 col-md-6 course-pricing-wrapper">
+      <div
+        className="course-pricing-card"
+        style={{
+          backgroundImage: "url(/assets/img/shape/15.webp)",
+        }}
+      >
         <div
           onClick={toggleExpand}
           style={{

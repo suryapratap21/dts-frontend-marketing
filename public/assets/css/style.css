@@ -12530,6 +12530,7 @@ ul.list-regular li::after {
 
 .course-pricing-card {
   border: 1px solid #e7e7e7;
+  position: relative;
   border-radius: 10px;
   padding: 30px;
   transition: all 0.3s ease;
