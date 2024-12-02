@@ -2,6 +2,8 @@
 
 import axios from "axios";
 
+export const runtime = "edge";
+
 export async function searchDot(number) {
   const { data } = await axios.post(
     "https://7754owosua.execute-api.us-east-1.amazonaws.com/default/safer-fetcher",
