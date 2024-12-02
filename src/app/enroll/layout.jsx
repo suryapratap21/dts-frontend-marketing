@@ -39,6 +39,23 @@ const EnrollLayout = ({ children }) => {
     }
   };
 
+  const [isNextDisabled, setIsNextDisabled] = useState(true);
+
+  useEffect(() => {
+    if (getStep() === 1) {
+      setIsNextDisabled(dotInformation.usdot ? false : true);
+    } else if (getStep() === 2) {
+      setIsNextDisabled(false);
+    }
+  }, [pathname, dotInformation]);
+  //   const isNextDisabled = () => {
+  //     if (getStep() === 1) {
+  //       return     dotInformation.usdot ? false : true;
+  //           } else {
+  //       return false;
+  //     }
+  //   }
+
   useEffect(() => {
     if (!dotInformation.usdot) {
       router.push("/enroll/dot");
@@ -130,7 +147,7 @@ const EnrollLayout = ({ children }) => {
             <button
               className="btn btn-primary"
               onClick={nextStep}
-              disabled={getStep() === 3}
+              disabled={isNextDisabled}
             >
               Next
             </button>
