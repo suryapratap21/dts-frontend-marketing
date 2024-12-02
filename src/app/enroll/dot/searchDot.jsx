@@ -1,8 +1,4 @@
-"use server";
-
 import axios from "axios";
-
-export const runtime = "edge";
 
 export async function searchDot(number) {
   const { data } = await axios.post(
