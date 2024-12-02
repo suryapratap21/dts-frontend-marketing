@@ -2,10 +2,10 @@ import axios from "axios";
 
 export async function searchDot(number) {
   const { data } = await axios.post(
-    "https://7754owosua.execute-api.us-east-1.amazonaws.com/default/safer-fetcher",
+    "https://dts-test-api.upforks.com/api/dot-search",
     {
       dot: +number,
-      searchBy: "dot",
+      searchBy: "usdot",
     }
   );
   const payload = {
