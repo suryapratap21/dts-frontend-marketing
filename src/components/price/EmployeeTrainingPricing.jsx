@@ -294,7 +294,7 @@ const CourseCard = ({ course }) => {
           <h4 className="">{course.title}</h4>{" "}
           <div>
             <h4 className={`course-pricing-toggler ${isExpanded && "active"}`}>
-              <i class="fas fa-angle-down"></i>
+              <i className="fas fa-angle-down"></i>
             </h4>
           </div>
         </div>
@@ -323,11 +323,11 @@ const CourseCard = ({ course }) => {
             >
               <h3>{course.price}</h3>
               <h6>
-                <i class="fas fa-stopwatch"></i>: {course.duration}
+                <i className="fas fa-stopwatch"></i>: {course.duration}
               </h6>
             </div>
             <div className="rounded-btn">
-              <i class="fas fa-cart-plus"></i>
+              <i className="fas fa-cart-plus"></i>
             </div>
           </div>
           <p>
@@ -340,7 +340,7 @@ const CourseCard = ({ course }) => {
               {course.list.map((item, index) => (
                 <li key={index}>
                   <i
-                    class="fas fa-circle"
+                    className="fas fa-circle"
                     style={{
                       fontSize: "0.5rem",
                       paddingRight: "0.5rem",

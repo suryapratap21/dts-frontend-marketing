@@ -1,11 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useContext } from "react";
 import PackagePricing from "./PackagePricing";
 import EmployeeTrainingPricing from "./EmployeeTrainingPricing";
+import { GlobalContext } from "@/app/contexts";
 
 const PricingContentMain = () => {
   const [selected, setSelected] = React.useState("packages");
+
+  const {
+    globalState: { cart },
+  } = useContext(GlobalContext);
+
+  console.log("cart: ", cart);
 
   const renderPricingContent = (selected) => {
     switch (selected) {

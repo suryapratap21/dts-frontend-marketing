@@ -1,14 +1,8 @@
-"use client";
-
 import PricingContentMain from "@/components/price/PricingContentMain";
-import React, { useState } from "react";
+import React from "react";
 
-const ContactUs = () => {
-  return (
-    <>
-      <PricingContentMain />
-    </>
-  );
+const Plans = () => {
+  return <PricingContentMain />;
 };
 
-export default ContactUs;
+export default Plans;

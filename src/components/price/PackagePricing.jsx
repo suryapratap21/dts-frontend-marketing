@@ -1,17 +1,18 @@
 "use client";
 
-import React from "react";
+import React, { useContext } from "react";
 import Link from "next/link";
+import { GlobalContext } from "@/app/contexts";
 
 const dotBasic = {
-  id: 1,
+  id: "basic-plan",
   title: "DOT Compliant Basic Random Consortium Enrollment",
   price: "$99.00",
   priceDuration: "/Year",
   features: [
     { id: 1, title: "Enrollment Certificate Instantly" },
     { id: 2, title: "Company Drug & Alcohol Policy" },
-    { id: 3, title: "Employee Education Course ( One Included )" },
+    { id: 3, title: "Employee Education Course (One Included)" },
     { id: 4, title: "Access to 10K plus collection sites" },
   ],
   addOns: [
@@ -28,14 +29,14 @@ const dotBasic = {
   buttonText: "Select",
 };
 const dotRandom = {
-  id: 2,
+  id: "random-plan",
   title: "DOT Compliant Basic Consortium Enrollment",
   price: "$199.00",
   priceDuration: "/Year",
   features: [
     { id: 1, title: "Enrollment Certificate Instantly" },
     { id: 2, title: "Company Drug & Alcohol Policy" },
-    { id: 3, title: "Employee Education Course ( One Included )" },
+    { id: 3, title: "Employee Education Course (One Included)" },
     { id: 4, title: "Access to 10K plus collection sites" },
     { id: 5, title: "Unlimited Random Drug Testing" },
   ],
@@ -54,13 +55,19 @@ const dotRandom = {
 };
 
 const PackagePricing = ({}) => {
+  const {
+    globalState: { cart },
+    setGlobalState,
+  } = useContext(GlobalContext);
   return (
     <>
       <div className="row align-items-center">
         <div className="col-xl-6 col-md-6 mb-30">
           <>
             <div
-              className={`pricing-style-one`}
+              className={`pricing-style-one ${
+                cart.package.id === dotBasic.id && "active"
+              }`}
               style={{
                 backgroundImage: `url(/assets/img/shape/15.webp)`,
               }}
@@ -112,12 +119,33 @@ const PackagePricing = ({}) => {
                     </li>
                   ))}
                 </ul>
-                <Link
-                  className={`btn mt-25 btn-sm animation btn-dark`}
-                  href="#"
+                <div
+                  className={`btn mt-25 ${
+                    cart.package.id === dotBasic.id
+                      ? "bg-theme text-white"
+                      : "animation btn-dark"
+                  }`}
+                  style={{
+                    width: "100%",
+                  }}
+                  onClick={() => {
+                    setGlobalState((prev) => ({
+                      ...prev,
+                      cart: {
+                        ...prev.cart,
+                        package: { id: dotBasic.id },
+                      },
+                    }));
+                  }}
                 >
-                  Select
-                </Link>
+                  {cart.package.id === dotBasic.id ? (
+                    <>
+                      Selected <i className="fas fa-check-circle"></i>
+                    </>
+                  ) : (
+                    "Select"
+                  )}
+                </div>
               </div>
             </div>
           </>
@@ -125,7 +153,9 @@ const PackagePricing = ({}) => {
         <div className="col-xl-6 col-md-6 mb-30">
           <>
             <div
-              className={`pricing-style-one active`}
+              className={`pricing-style-one ${
+                cart.package.id === dotRandom.id && "active"
+              }`}
               style={{
                 backgroundImage: `url(/assets/img/shape/15.webp)`,
               }}
@@ -160,9 +190,19 @@ const PackagePricing = ({}) => {
                         id="text-back"
                         name="text-back"
                         type="checkbox"
-                        required
+                        onClick={(e) => {
+                          console.log("asdsd: ", e.target.checked);
+                          // if(cart)
+                          setGlobalState((prev) => ({
+                            ...prev,
+                            cart: {
+                              ...prev.cart,
+                              package: { id: dotRandom.id },
+                            },
+                          }));
+                        }}
                       />{" "}
-                       {i.title} {i.price && <>- ${i.price.toFixed(2)}</>}
+                      {i.title} {i.price && <>- ${i.price.toFixed(2)}</>}
                       {i.regularPrice && (
                         <span
                           style={{
@@ -176,12 +216,34 @@ const PackagePricing = ({}) => {
                     </li>
                   ))}
                 </ul>
-                <Link
-                  className={`btn mt-25 btn-sm animation btn-dark`}
-                  href="#"
+                <div
+                  className={`btn mt-25 ${
+                    cart.package.id === dotRandom.id
+                      ? "bg-theme text-white"
+                      : "animation btn-dark"
+                  }`}
+                  style={{
+                    width: "100%",
+                  }}
+                  onClick={() => {
+                    if (cart.package.id === dotRandom.id) return;
+                    setGlobalState((prev) => ({
+                      ...prev,
+                      cart: {
+                        ...prev.cart,
+                        package: { id: dotRandom.id },
+                      },
+                    }));
+                  }}
                 >
-                  Select
-                </Link>
+                  {cart.package.id === dotRandom.id ? (
+                    <>
+                      Selected <i className="fas fa-check-circle"></i>
+                    </>
+                  ) : (
+                    "Select"
+                  )}
+                </div>
               </div>
             </div>
           </>

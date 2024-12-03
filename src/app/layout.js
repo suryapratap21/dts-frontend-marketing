@@ -20,6 +20,7 @@ import "@/assets/css/style.css";
 import Dependency from "@/components/utilities/Dependency";
 import { ToastContainer } from "react-toastify";
 import { Manrope, Outfit } from "next/font/google";
+import Contexts from "./contexts";
 
 const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
@@ -34,7 +35,7 @@ export default function RootLayout({ children }) {
       <body className={`${outfit.className} ${manrope.className}`}>
         <ToastContainer />
         <Dependency />
-        {children}
+        <Contexts>{children}</Contexts>
       </body>
     </html>
   );
