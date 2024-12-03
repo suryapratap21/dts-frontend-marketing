@@ -54,7 +54,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                       <li>
                         <div className="working-day">Monday – Friday:</div>
                         <div className="marker"></div>
-                        <div className="working-hour">8am – 5pm</div>
+                        <div className="working-hour">9am – 5pm</div>
                       </li>
                       <li>
                         <div className="working-day">Saturday:</div>

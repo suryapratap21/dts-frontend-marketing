@@ -4,8 +4,8 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-import about7Thumb from "@/assets/img/about/7.jpg";
-import about8Thumb from "@/assets/img/about/8.jpg";
+import about7Thumb from "@/assets/new-img/dq-file.webp";
+import about8Thumb from "@/assets/new-img/dq-file-2.webp";
 import SingleFeature2 from "@/components/feature/SingleFeature2";
 
 export const metadata = {
@@ -19,7 +19,7 @@ const DQFileManagement = () => {
       <LayoutStyle7>
         <>
           <div
-            className={`about-style-two-area overflow-hidden bg-contain default-padding`}
+            className={`about-style-two-area overflow-hidden bg-contain`}
             style={{ backgroundImage: `url(/assets/img/shape/29.png)` }}
           >
             <div className="container">
@@ -54,7 +54,7 @@ const DQFileManagement = () => {
                       & 3 Years After Termination.
                     </strong>{" "}
                     We at DTS guide our customers through this process and make
-                    sure to keep them compliant for the next audit
+                    sure to keep them compliant for the next audit.
                   </p>
                   <div className="mt-30">
                     <Link href="/pricing" className="btn btn-md btn-gradient">
@@ -89,7 +89,7 @@ const DQFileManagement = () => {
         </>
         <>
           <div
-            className="feature-style-two-area overflow-hidden default-padding pt-4"
+            className="feature-style-two-area overflow-hidden default-padding"
             style={{ backgroundImage: `url(/assets/img/shape/45.png)` }}
           >
             <div className="container">

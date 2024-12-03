@@ -58,7 +58,7 @@ const EnrollLayout = ({ children }) => {
 
   useEffect(() => {
     if (!dotInformation.usdot) {
-      router.push("/enroll/dot");
+      router.push("/enroll/plans");
     }
   }, [dotInformation]);
 
@@ -85,7 +85,7 @@ const EnrollLayout = ({ children }) => {
 
           <div className="row">
             <div className="col-12">
-              <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+              <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
                 <div
                   className={`rounded-pill ${
                     getStep() > 1 ? "bg-success" : "bg-secondary"

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import { GlobalContext } from "@/app/contexts";
 
 const dotBasic = {
@@ -129,6 +129,7 @@ const PackagePricing = ({}) => {
                     width: "100%",
                   }}
                   onClick={() => {
+                    if (cart.package.id === dotBasic.id) return;
                     setGlobalState((prev) => ({
                       ...prev,
                       cart: {
