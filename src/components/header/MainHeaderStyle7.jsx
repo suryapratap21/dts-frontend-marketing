@@ -18,7 +18,6 @@ const MainHeaderStyle7 = () => {
     <>
       <header id="header-navbar">
         <nav
-          id="navbar"
           className={`navbar mobile-sidenav navbar-common navbar-sticky navbar-default validnavs ${
             isOpen ? "navbar-responsive" : ""
           }`}

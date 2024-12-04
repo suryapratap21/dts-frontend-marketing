@@ -63,7 +63,7 @@ const EnrollLayout = ({ children }) => {
 
   useEffect(() => {
     if (!dotInformation.usdot) {
-      router.push("/enroll/plans");
+      router.push("/enroll/dot");
     }
   }, [dotInformation]);
 
@@ -149,7 +149,7 @@ const EnrollLayout = ({ children }) => {
             >
               Previous
             </button> */}
-            {!cart.package?.id && (
+            {getStep() === 2 && !cart.package?.id && (
               <h4
                 style={{
                   marginRight: "10px",
