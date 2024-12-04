@@ -167,13 +167,6 @@ const EnrollLayout = ({ children }) => {
             </button>
           </div>
         </div>
-        {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
-        {/* <ContactMap /> */}
       </LayoutStyle7>
     </>
   );

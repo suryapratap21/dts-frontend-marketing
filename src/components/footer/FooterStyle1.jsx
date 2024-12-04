@@ -157,7 +157,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                     <Link href="/terms">Terms</Link>
                   </li>
                   <li>
-                    <Link href="/about-us">Privacy</Link>
+                    <Link href="/privacy-policy">Privacy</Link>
                   </li>
                   <li>
                     <Link href="/contact-us">Support</Link>
