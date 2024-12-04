@@ -133,7 +133,6 @@ Sidebar heading:  20px 'Outfit', sans-serif
   padding: 0;
 }
 
-body,
 html {
   height: 100%;
 }
@@ -2889,6 +2888,13 @@ p {
 /* ============================================================== 
     # Navbar Styles
 =================================================================== */
+
+#header-navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 9999999;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 @media (min-width: 1200px) {
   nav.navbar.navbar-style-one.validnavs.navbar-fixed.no-background {

@@ -16,11 +16,12 @@ const MainHeaderStyle7 = () => {
 
   return (
     <>
-      <header>
+      <header id="header-navbar">
         <nav
+          id="navbar"
           className={`navbar mobile-sidenav navbar-common navbar-sticky navbar-default validnavs ${
-            isMenuSticky ? "sticked" : "no-background"
-          } ${isOpen ? "navbar-responsive" : ""}`}
+            isOpen ? "navbar-responsive" : ""
+          }`}
         >
           <div className="container d-flex justify-content-between align-items-center">
             <HeaderLogo openMenu={openMenu} />
