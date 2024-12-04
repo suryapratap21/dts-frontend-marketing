@@ -14,13 +14,11 @@ const submitContactForm = async (payload) => {
       body: JSON.stringify(payload),
     }
   );
-  const content = await rawResponse.json();
 };
 
 const ContactForm = () => {
   const handleForm = async (event) => {
     event.preventDefault();
-    console.log("values: ", event.target.lastName.value);
     const payload = {
       firstName: event.target.firstName.value,
       lastName: event.target.lastName.value,
@@ -29,7 +27,6 @@ const ContactForm = () => {
       phone: event.target.phone.value,
       driver: event.target.driver.value,
     };
-    console.log("payload: ", payload);
     try {
       await submitContactForm(payload);
       event.target.reset();

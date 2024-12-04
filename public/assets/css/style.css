@@ -6246,6 +6246,17 @@ p {
   border-radius: 10px;
 }
 
+.pricing-style-one .pricing-deselect-button {
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 25px;
+  background-color: white;
+  line-height: normal;
+  color: var(--color-primary);
+}
+
 .pricing-style-one .pricing-header {
   padding-bottom: 25px;
   position: relative;

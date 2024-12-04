@@ -7,14 +7,26 @@ export const GlobalContext = createContext({});
 const Contexts = ({ children }) => {
   const [globalState, setGlobalState] = useState(() => {
     if (typeof window !== "undefined") {
-      const savedData = localStorage.getItem("globalState");
-      return savedData
-        ? JSON.parse(savedData)
+      const cartData = localStorage.getItem("cartState");
+      return cartData
+        ? {
+            cart: JSON.parse(cartData),
+            globalDialog: {
+              isOpen: false,
+              title: "",
+              content: <></>,
+            },
+          }
         : {
             cart: {
               package: {},
               education: [],
               drugTests: [],
+            },
+            globalDialog: {
+              isOpen: false,
+              title: "",
+              content: <></>,
             },
           };
     }
@@ -24,13 +36,18 @@ const Contexts = ({ children }) => {
         education: [],
         drugTests: [],
       },
+      globalDialog: {
+        isOpen: false,
+        title: "",
+        content: <></>,
+      },
     };
   });
   useEffect(() => {
     if (typeof window !== "undefined") {
-      localStorage.setItem("globalState", JSON.stringify(globalState));
+      localStorage.setItem("cartState", JSON.stringify(globalState.cart));
     }
-  }, [globalState]);
+  }, [globalState.cart]);
   return (
     <GlobalContext.Provider value={{ globalState, setGlobalState }}>
       {children}

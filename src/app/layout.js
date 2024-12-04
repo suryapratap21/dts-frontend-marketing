@@ -21,6 +21,7 @@ import Dependency from "@/components/utilities/Dependency";
 import { ToastContainer } from "react-toastify";
 import { Manrope, Outfit } from "next/font/google";
 import Contexts from "./contexts";
+import GlobalDialog from "./GlobalDialog";
 
 const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
@@ -35,7 +36,10 @@ export default function RootLayout({ children }) {
       <body className={`${outfit.className} ${manrope.className}`}>
         <ToastContainer />
         <Dependency />
-        <Contexts>{children}</Contexts>
+        <Contexts>
+          <GlobalDialog />
+          {children}
+        </Contexts>
       </body>
     </html>
   );

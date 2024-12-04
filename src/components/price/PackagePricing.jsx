@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 // import Link from "next/link";
 import { GlobalContext } from "@/app/contexts";
 
@@ -59,6 +59,39 @@ const PackagePricing = ({}) => {
     globalState: { cart },
     setGlobalState,
   } = useContext(GlobalContext);
+  const deselectPackage = () => {
+    setGlobalState((prev) => ({
+      ...prev,
+      cart: {
+        ...prev.cart,
+        package: {},
+      },
+      globalDialog: {
+        isOpen: false,
+        title: "",
+        content: <></>,
+      },
+    }));
+  };
+  const openDialog = () => {
+    setGlobalState((prev) => ({
+      ...prev,
+      globalDialog: {
+        isOpen: true,
+        title: "Are you sure you want to deselect?",
+        content: (
+          <>
+            <p>
+              Enrolling in a package will save you upto 30% on drug tests...
+            </p>
+            <div className="btn" onClick={deselectPackage}>
+              Confirm
+            </div>
+          </>
+        ),
+      },
+    }));
+  };
   return (
     <>
       <div className="row align-items-center">
@@ -72,6 +105,19 @@ const PackagePricing = ({}) => {
                 backgroundImage: `url(/assets/img/shape/15.webp)`,
               }}
             >
+              {cart.package.id === dotBasic.id && (
+                // <span
+                //   className="pricing-deselect-button"
+                //   onClick={deselectPackage}
+                // >
+                <i
+                  className="fas fa-times-circle pricing-deselect-button"
+                  onClick={() => {
+                    openDialog();
+                  }}
+                ></i>
+                // </span>
+              )}
               <div className="pricing-header">
                 <h4>DOT Compliant Basic Random Consortium Enrollment</h4>
               </div>
@@ -89,7 +135,7 @@ const PackagePricing = ({}) => {
                   ))}
                 </ul>
 
-                <h4 className="pricing-content-title">Add-Ons</h4>
+                {/* <h4 className="pricing-content-title">Add-Ons</h4>
                 <ul className="pricing-content-add-on">
                   {dotBasic.addOns.map((i) => (
                     <li key={i.id}>
@@ -118,7 +164,7 @@ const PackagePricing = ({}) => {
                       )}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
                 <div
                   className={`btn mt-25 ${
                     cart.package.id === dotBasic.id
@@ -161,6 +207,19 @@ const PackagePricing = ({}) => {
                 backgroundImage: `url(/assets/img/shape/15.webp)`,
               }}
             >
+              {cart.package.id === dotRandom.id && (
+                // <span
+                //   className="pricing-deselect-button"
+                //   onClick={deselectPackage}
+                // >
+                <i
+                  className="fas fa-times-circle pricing-deselect-button"
+                  onClick={() => {
+                    openDialog();
+                  }}
+                ></i>
+                // </span>
+              )}
               <div className="pricing-header">
                 <h4>DOT Compliant Random Pool Enrollment & Testing</h4>
               </div>
@@ -177,7 +236,7 @@ const PackagePricing = ({}) => {
                     </li>
                   ))}
                 </ul>
-                <h4 className="pricing-content-title">Add-Ons</h4>
+                {/* <h4 className="pricing-content-title">Add-Ons</h4>
                 <ul className="pricing-content-add-on">
                   {dotRandom.addOns.map((i) => (
                     <li key={i.id}>
@@ -216,7 +275,7 @@ const PackagePricing = ({}) => {
                       )}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
                 <div
                   className={`btn mt-25 ${
                     cart.package.id === dotRandom.id
