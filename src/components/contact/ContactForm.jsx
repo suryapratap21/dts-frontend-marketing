@@ -2,11 +2,45 @@
 import React from "react";
 import { toast } from "react-toastify";
 
+const submitContactForm = async (payload) => {
+  const rawResponse = await fetch(
+    `https://dts-test-api.upforks.com/admin/contact`,
+    {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    }
+  );
+  const content = await rawResponse.json();
+};
+
 const ContactForm = () => {
-  const handleForm = (event) => {
+  const handleForm = async (event) => {
     event.preventDefault();
-    event.target.reset();
-    toast.success("Thanks For Your Message");
+    console.log("values: ", event.target.lastName.value);
+    const payload = {
+      firstName: event.target.firstName.value,
+      lastName: event.target.lastName.value,
+      companyName: event.target.companyName.value,
+      email: event.target.email.value,
+      phone: event.target.phone.value,
+      driver: event.target.driver.value,
+    };
+    console.log("payload: ", payload);
+    try {
+      await submitContactForm(payload);
+      event.target.reset();
+      toast.success(
+        "Thank you for contacting us. We'll get back to you shortly!"
+      );
+    } catch (error) {
+      toast.error(
+        "Something went wrong. Please contact administrator if this issue persists."
+      );
+    }
   };
 
   return (
