@@ -34,7 +34,7 @@ const PricingContentMain = () => {
             <h4 className="widget-title">Pricing Model</h4>
             <div className="content">
               <ul>
-                {["packages", "employee-training", "drug-tests"].map(
+                {["packages", "drug-tests", "employee-training"].map(
                   (service) => (
                     <li
                       className={`cursor-pointer ${

@@ -94,9 +94,9 @@ const PrivacyPolicy = () => {
                     verifiable request from you, we will:
                   </p>
                   <ul>
+                    <li>- Delete your personal information from our records</li>
                     <li>
-                      - Delete your personal information from our records -
-                      Direct any service providers to delete your personal
+                      - Direct any service providers to delete your personal
                       information from their records
                     </li>
                   </ul>

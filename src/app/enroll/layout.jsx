@@ -2,13 +2,18 @@
 
 import LayoutStyle7 from "@/components/Layouts/LayoutStyle7";
 import { useRouter, usePathname } from "next/navigation";
-import React, { createContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { GlobalContext } from "../contexts";
 
 export const DotContext = createContext({});
 
 const EnrollLayout = ({ children }) => {
   const [currentStep, setCurrentStep] = useState(1);
   const [dotInformation, setDotInformation] = useState({});
+
+  const {
+    globalState: { cart },
+  } = useContext(GlobalContext);
 
   const router = useRouter();
   const pathname = usePathname();
@@ -136,7 +141,7 @@ const EnrollLayout = ({ children }) => {
             </DotContext.Provider>
           </div>
 
-          <div className="d-flex justify-content-end my-4">
+          <div className="d-flex justify-content-end align-items-end my-4">
             {/* <button
               className="btn btn-secondary"
               onClick={prevStep}
@@ -144,6 +149,15 @@ const EnrollLayout = ({ children }) => {
             >
               Previous
             </button> */}
+            {!cart.package?.id && (
+              <h4
+                style={{
+                  marginRight: "10px",
+                }}
+              >
+                Proceed without selecting a package
+              </h4>
+            )}
             <button
               className="btn btn-primary"
               onClick={nextStep}
