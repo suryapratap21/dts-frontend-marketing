@@ -236,18 +236,26 @@ const trainingCourses = [
 ];
 
 const EmployeeTrainingPricing = ({}) => {
+  const [expanded, setExpanded] = useState(null);
   return (
     <>
       <div className="row g-3">
         {trainingCourses.map((course) => (
-          <CourseCard course={course} key={course.id} />
+          <CourseCard
+            course={course}
+            key={course.id}
+            expanded={expanded}
+            onExpand={(id) => {
+              setExpanded(id);
+            }}
+          />
         ))}
       </div>
     </>
   );
 };
 
-const CourseCard = ({ course }) => {
+const CourseCard = ({ course, expanded, onExpand }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [maxHeight, setMaxHeight] = useState();
   const contentRef = useRef(null);
@@ -255,6 +263,7 @@ const CourseCard = ({ course }) => {
   const toggleExpand = () => {
     // setMaxHeight(isExpanded ? "0px" : `${contentRef.current.scrollHeight}px`);
     setIsExpanded(!isExpanded);
+    onExpand(isExpanded ? null : course.id);
   };
 
   const truncateText = (text, limit) => {
@@ -274,6 +283,15 @@ const CourseCard = ({ course }) => {
     // setTimeout(() => setMaxHeight("0px"), 0);
     // }
   }, [isExpanded]);
+
+  useEffect(() => {
+    console.log("expanded: ", expanded);
+    if (expanded === course.id) {
+      setIsExpanded(true);
+    } else {
+      setIsExpanded(false);
+    }
+  }, [expanded]);
 
   return (
     <div className="col-xl-6 col-md-6 course-pricing-wrapper">

@@ -13,7 +13,7 @@ const ServiceDetailsPage = () => {
     <>
       <LayoutStyle7>
         <>
-          <div className="services-details-area overflow-hidden default-padding pt-4">
+          <div className="services-details-area overflow-hidden default-padding">
             <div className="container">
               <div className="services-details-items">
                 <div className="row">

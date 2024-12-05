@@ -10,7 +10,9 @@ const ServiceDetailsPage = () => {
     <>
       {/* <LayoutStyle7 breadCrumb="DOT-Drug-Testing" title="DOT Drug Testing"> */}
       <LayoutStyle7>
-        <ServiceDetailsContent />
+        <div className="default-padding">
+          <ServiceDetailsContent />
+        </div>
       </LayoutStyle7>
     </>
   );

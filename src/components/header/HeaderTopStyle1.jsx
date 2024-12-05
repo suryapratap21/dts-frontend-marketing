@@ -20,13 +20,13 @@ const HeaderTopStyle1 = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-xl-3 col-lg-4 text-end">
+            {/* <div className="col-xl-3 col-lg-4 text-end">
               <div className="social">
                 <ul>
                   <SocialShare />
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

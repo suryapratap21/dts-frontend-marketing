@@ -17,7 +17,7 @@ const DQFileManagement = () => {
     <>
       {/* <LayoutStyle7 breadCrumb="DOT-Drug-Testing" title="DOT Drug Testing"> */}
       <LayoutStyle7>
-        <>
+        <div className="default-padding">
           <div
             className={`about-style-two-area overflow-hidden bg-contain`}
             style={{ backgroundImage: `url(/assets/img/shape/29.png)` }}
@@ -86,42 +86,42 @@ const DQFileManagement = () => {
               </div>
             </div>
           </div>
-        </>
-        <>
-          <div
-            className="feature-style-two-area overflow-hidden default-padding"
-            style={{ backgroundImage: `url(/assets/img/shape/45.png)` }}
-          >
-            <div className="container">
-              <div className="services-details-items">
-                <div className="row">
-                  <div className="col pl-50 pl-md-15 pl-xs-15">
-                    <div className="text-center">
-                      <h4>
-                        Introducing DTS Driver Qualification Files Software
-                      </h4>
-                      <h2>Software Features</h2>
-                    </div>
+          <>
+            <div
+              className="feature-style-two-area overflow-hidden default-padding"
+              style={{ backgroundImage: `url(/assets/img/shape/45.png)` }}
+            >
+              <div className="container">
+                <div className="services-details-items">
+                  <div className="row">
+                    <div className="col pl-50 pl-md-15 pl-xs-15">
+                      <div className="text-center">
+                        <h4>
+                          Introducing DTS Driver Qualification Files Software
+                        </h4>
+                        <h2>Software Features</h2>
+                      </div>
 
-                    <div className="row relative pt-40">
-                      {FeaturesList.map((feature) => (
-                        <div
-                          className="col-lg-4 col-md-6 mb-30"
-                          key={feature.id}
-                        >
-                          <SingleFeature2 feature={feature} />
-                        </div>
-                      ))}
-                      {/* <div className="shape-right-bottom">
+                      <div className="row relative pt-40">
+                        {FeaturesList.map((feature) => (
+                          <div
+                            className="col-lg-4 col-md-6 mb-30"
+                            key={feature.id}
+                          >
+                            <SingleFeature2 feature={feature} />
+                          </div>
+                        ))}
+                        {/* <div className="shape-right-bottom">
                           <Image src={shape40} alt="Image Not found" />
                         </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </>
+          </>
+        </div>
       </LayoutStyle7>
     </>
   );

@@ -12,7 +12,7 @@ const DQFileManagement = () => {
     <>
       <LayoutStyle7>
         <>
-          <div className="services-details-area overflow-hidden default-padding pt-4">
+          <div className="services-details-area overflow-hidden default-padding pt-8">
             <div className="container">
               <div className="services-details-items">
                 <div className="row">

@@ -4,6 +4,7 @@ import React, { useContext } from "react";
 import PackagePricing from "./PackagePricing";
 import EmployeeTrainingPricing from "./EmployeeTrainingPricing";
 import { GlobalContext } from "@/app/contexts";
+import DrugTestsPricing from "./DrugTestsPricing";
 
 const PricingContentMain = () => {
   const [selected, setSelected] = React.useState("packages");
@@ -12,16 +13,14 @@ const PricingContentMain = () => {
     globalState: { cart },
   } = useContext(GlobalContext);
 
-  console.log("cart: ", cart);
-
   const renderPricingContent = (selected) => {
     switch (selected) {
       case "packages":
         return <PackagePricing />;
       case "employee-training":
         return <EmployeeTrainingPricing />;
-      // case "drug-tests":
-      //   return <DrugTests />;
+      case "drug-tests":
+        return <DrugTestsPricing />;
       default:
         return null;
     }

@@ -658,8 +658,8 @@ p {
 }
 
 .default-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -12639,4 +12639,18 @@ ul.list-regular li::after {
 .transparent-btn:hover {
   background: #f16a2b31;
   /* color: #fff; */
+}
+
+.single-price-box {
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.single-price-box .price-header {
+  /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
