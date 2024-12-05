@@ -7,6 +7,7 @@ import Image from "next/image";
 import about7Thumb from "@/assets/new-img/dq-file.webp";
 import about8Thumb from "@/assets/new-img/dq-file-2.webp";
 import SingleFeature2 from "@/components/feature/SingleFeature2";
+import DQFileSlider from "./DQFileSlider";
 
 export const metadata = {
   title: "Driver Qualification File Management - DrugTestingSites",
@@ -17,7 +18,7 @@ const DQFileManagement = () => {
     <>
       {/* <LayoutStyle7 breadCrumb="DOT-Drug-Testing" title="DOT Drug Testing"> */}
       <LayoutStyle7>
-        <div className="default-padding">
+        <div className="default-padding-top">
           <div
             className={`about-style-two-area overflow-hidden bg-contain`}
             style={{ backgroundImage: `url(/assets/img/shape/29.png)` }}
@@ -122,6 +123,7 @@ const DQFileManagement = () => {
             </div>
           </>
         </div>
+        <DQFileSlider />
       </LayoutStyle7>
     </>
   );

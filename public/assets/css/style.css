@@ -7940,7 +7940,7 @@ form.seo-form input:-moz-placeholder {
     # Services Style Three
 =================================================================== */
 
-.services-style-three i {
+/* .services-style-three i {
   display: inline-block;
   font-size: 35px;
   margin-bottom: 30px;
@@ -7954,14 +7954,14 @@ form.seo-form input:-moz-placeholder {
   border-radius: 50%;
   border: 2px solid var(--white);
   box-shadow: 0 5px 25px 0 rgb(0 0 0 / 9%);
-}
+} */
 
 .services-style-three {
   background: var(--bg-gray);
 }
 
 .services-style-three .info {
-  padding: 60px 37px;
+  padding: 40px 37px;
 }
 
 .services-style-three .info p {
@@ -8080,7 +8080,7 @@ form.seo-form input:-moz-placeholder {
   width: 100%;
   font-family: "Font Awesome 5 Pro";
   text-align: center;
-  color: var(--white);
+  /* color: var(--white); */
 }
 
 .services-swiper-nav .services-button-next::after {
@@ -8100,7 +8100,7 @@ form.seo-form input:-moz-placeholder {
   background: transparent;
   position: absolute;
   line-height: 40px;
-  color: var(--white);
+  /* color: var(--white); */
   font-size: 24px;
   width: auto;
   font-weight: 600;
