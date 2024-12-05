@@ -1,4 +1,11 @@
 "use client";
+import {
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuItems,
+  Select,
+} from "@headlessui/react";
 import React from "react";
 import { toast } from "react-toastify";
 
@@ -17,8 +24,19 @@ const submitContactForm = async (payload) => {
 };
 
 const ContactForm = () => {
+  const selectRef = React.useRef(null);
+  const [selected, setSelected] = React.useState("");
   const handleForm = async (event) => {
     event.preventDefault();
+    if (selected === "") {
+      toast.error("Please select a topic", {
+        position: "bottom-right",
+      });
+      if (selectRef.current) {
+        selectRef.current.focus();
+      }
+      return;
+    }
     const payload = {
       firstName: event.target.firstName.value,
       lastName: event.target.lastName.value,
@@ -26,6 +44,8 @@ const ContactForm = () => {
       email: event.target.email.value,
       phone: event.target.phone.value,
       driver: event.target.driver.value,
+      topic: selected,
+      notes: event.target["other-notes"]?.value,
     };
     try {
       await submitContactForm(payload);
@@ -132,6 +152,57 @@ const ContactForm = () => {
               <span className="alert-error"></span>
             </div>
           </div>
+          <div className="col-lg-6">
+            <Select
+              ref={selectRef}
+              name="status"
+              aria-label="Project status"
+              className="select-dropdown"
+              onChange={(e) => setSelected(e.target.value)}
+              value={selected}
+              style={{
+                ...(selected === "" && { color: "#212529" }),
+              }}
+            >
+              <option
+                style={{
+                  color: "#d6d6d6",
+                }}
+                selected
+                value=""
+              >
+                Select Topic
+              </option>
+              <option value="random-consortium">Random Consortium</option>
+              <option value="driver-hiring-software">
+                Driver Hiring Software
+              </option>
+              <option value="background-check">Background Check</option>
+              <option value="drug-tests">Drug Tests</option>
+              <option value="online-driver-education">
+                Online Driver Education
+              </option>
+              <option value="compliance">Compliance</option>
+              <option value="drug-and-alcohol-clearinghouse">
+                Drug & Alcohol Clearinghouse
+              </option>
+              <option value="other">Other</option>
+            </Select>
+          </div>
+          {selected === "other" && (
+            <div className="col-lg-12">
+              <div className="form-group">
+                <textarea
+                  className="form-control"
+                  id="other-notes"
+                  name="other-notes"
+                  placeholder="Please specify your requirements"
+                  type="text"
+                  rows="1"
+                />
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="row my-4">

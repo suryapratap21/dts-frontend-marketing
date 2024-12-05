@@ -8821,6 +8821,22 @@ form.seo-form input:-moz-placeholder {
   border-color: var(--color-primary);
 }
 
+.select-dropdown {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #d6d6d6;
+  border-radius: 0;
+  font-size: 18px;
+}
+
+.select-dropdown:focus {
+  box-shadow: inherit;
+  border-color: var(--color-primary);
+}
+
 .contact-form-style-one input:focus,
 .contact-form-style-one textarea:focus {
   box-shadow: inherit;
