@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { Router } from "next/router";
+import { useRouter } from "next/navigation";
 
 const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
+  const router = useRouter();
   return (
     <>
       <ul
@@ -42,9 +47,32 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
             </li>
           </ul>
         </li>
-        <li>
-          <Link href="/pricing">Pricing</Link>
+        <li className="dropdown">
+          <Link
+            href="#"
+            className="dropdown-toggle"
+            data-toggle="dropdown"
+            onClick={(e) => toggleSubMenu(e, router.push("/pricing"))}
+          >
+            Pricing
+          </Link>
+          <ul className="dropdown-menu">
+            <li>
+              <Link href="/pricing/random-consortium-package">
+                DOT Random Consortium
+              </Link>
+            </li>
+            <li>
+              <Link href="/pricing/employee-training">Employee Training</Link>
+            </li>
+            <li>
+              <Link href="/pricing/drug-test">Immediate Drug Test</Link>
+            </li>
+          </ul>
         </li>
+        {/* <li>
+          <Link href="/pricing">Pricing</Link>
+        </li> */}
         <li>
           <Link href="/contact-us">Contact</Link>
         </li>

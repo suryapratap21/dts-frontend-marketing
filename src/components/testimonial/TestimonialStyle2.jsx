@@ -3,7 +3,9 @@ import React from "react";
 import { Autoplay, Keyboard, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Testimonial2Data from "@/assets/jsonData/testimonial/Testimonial1Data.json";
+import googleReviewImg from "@/assets/new-img/google-reviews.webp";
 import SingleTestimonial2 from "./SingleTestimonial2";
+import Image from "next/image";
 
 const TestimonialStyle2 = () => {
   return (
@@ -16,6 +18,16 @@ const TestimonialStyle2 = () => {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="site-heading text-light text-center">
+                <div>
+                  <Image
+                    style={{
+                      maxWidth: "100px",
+                      margin: "0 auto 20px auto",
+                    }}
+                    src={googleReviewImg}
+                    alt="google-reviews"
+                  />
+                </div>
                 <h4 className="sub-heading">Testimonials</h4>
                 <h2 className="title">Clients Feedback</h2>
                 <div className="devider"></div>

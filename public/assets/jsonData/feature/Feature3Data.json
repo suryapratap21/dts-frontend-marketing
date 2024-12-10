@@ -1,23 +1,26 @@
 [
-    {
-        "id": 1,
-        "thumb": "10.jpg",
-        "title": "Safe your money",
-        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
-        "icon": "fas fa-sack-dollar"
-    },
-    {
-        "id": 2,
-        "thumb": "9.jpg",
-        "title": "Protect your life",
-        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
-        "icon": "fas fa-umbrella"
-    },
-    {
-        "id": 3,
-        "thumb": "11.jpg",
-        "title": "Make the future bright",
-        "text": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now",
-        "icon": "fas fa-heartbeat"
-    }
+  {
+    "id": 1,
+    "thumb": "immediate-test.webp",
+    "title": "Immediate Drug Testing",
+    "text": "All DrugTestingSites locations are able to provide immediate drug and alcohol testing for individuals",
+    "link": "/pricing/drug-test",
+    "icon": "fas fa-sack-dollar"
+  },
+  {
+    "id": 2,
+    "thumb": "employee-training.webp",
+    "title": "Employee Trainings",
+    "text": "DrugTestingSites is your complete solution to implementing and maintaining drug testing services for small and large companies anywhere in the United States",
+    "link": "/pricing/employee-training",
+    "icon": "fas fa-umbrella"
+  },
+  {
+    "id": 3,
+    "thumb": "random-consortium.webp",
+    "title": "DOT Random Consortium",
+    "text": "We are professionals at establishing consortiums and administering DOT-compliant testing programs for any business in the transportation industry",
+    "link": "/pricing/random-consortium-package",
+    "icon": "fas fa-heartbeat"
+  }
 ]
