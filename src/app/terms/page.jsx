@@ -2,7 +2,7 @@ import LayoutStyle7 from "@/components/Layouts/LayoutStyle7";
 import React from "react";
 
 export const metadata = {
-  title: "Terms and Conditions - DTS",
+  title: "Terms and Conditions - DrugTestingSites",
 };
 
 const AboutUsPage = () => {

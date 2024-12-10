@@ -54,8 +54,9 @@ const DQFileManagement = () => {
                       Driver Files Must Be Maintained For The Life Of Employment
                       & 3 Years After Termination.
                     </strong>{" "}
-                    We at DTS guide our customers through this process and make
-                    sure to keep them compliant for the next audit.
+                    We at DrugTestingSites guide our customers through this
+                    process and make sure to keep them compliant for the next
+                    audit.
                   </p>
                   <div className="mt-30">
                     <Link href="/pricing" className="btn btn-md btn-gradient">
@@ -96,9 +97,9 @@ const DQFileManagement = () => {
                 <div className="services-details-items">
                   <div className="row">
                     <div className="col pl-50 pl-md-15 pl-xs-15">
-                      <div className="text-center">
-                        <h4>
-                          Introducing DTS Driver Qualification Files Software
+                      <div className="site-heading text-center">
+                        <h4 className="sub-heading">
+                          Introducing Prime DQ Files
                         </h4>
                         <h2>Software Features</h2>
                       </div>

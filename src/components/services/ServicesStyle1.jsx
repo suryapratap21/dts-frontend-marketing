@@ -135,8 +135,8 @@ const servicesData = [
           The FMCSA requires drivers and fleets to maintain a proper driver
           qualification record or file. The driver file is a complex document
           with multiple parts that need to meet the guideline and standards as
-          outlined by FMCSA. We at DTS guide our customers through this process
-          and make sure to keep them compliant for the next audit
+          outlined by FMCSA. We at DrugTestingSites guide our customers through
+          this process and make sure to keep them compliant for the next audit
         </p>
         <div className="pt-10">
           <Link
@@ -197,7 +197,7 @@ const ServicesStyle1 = () => {
           <div className="row">
             <div className="col-lg-5 mb-md-60">
               <div className="service-nav-info">
-                <h4 className="sub-title">DTS provides</h4>
+                <h4 className="sub-title">DrugTestingSites provides</h4>
                 <h2>A Full-Service Solution</h2>
                 <div
                   className="nav nav-tabs service-tab-navs"

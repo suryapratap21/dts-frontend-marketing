@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import shape7 from "@/assets/img/shape/7.png";
 import shape9 from "@/assets/img/shape/9.png";
-import logoLight from "@/assets/new-img/dts-logo-v1.webp";
+import logoLight from "@/assets/new-img/dts-logo-white.webp";
 import Link from "next/link";
 import SocialShare from "../utilities/SocialShare";
 import FooterNewsLetter from "../form/FooterNewsLetter";
@@ -29,11 +29,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
               <div className="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15">
                 <div className="f-item about">
                   <Link href="/">
-                    {logo ? (
-                      <Image className="logo" src={logo} alt="Logo" />
-                    ) : (
-                      <Image className="logo" src={logoLight} alt="Logo" />
-                    )}
+                    <Image className="logo" src={logoLight} alt="Logo" />
                   </Link>
                   <div>
                     <div>
@@ -59,7 +55,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                       <li>
                         <div className="working-day">Saturday:</div>
                         <div className="marker"></div>
-                        <div className="working-hour">On Appointment</div>
+                        <div className="working-hour">By Appointment only</div>
                       </li>
                       <li>
                         <div className="working-day">Sunday:</div>
@@ -123,9 +119,9 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                 <div className={`f-item newsletter ${formStyle}`}>
                   <FooterNewsLetter />
                 </div>
-                <ul className="footer-social">
+                {/* <ul className="footer-social">
                   <SocialShare />
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

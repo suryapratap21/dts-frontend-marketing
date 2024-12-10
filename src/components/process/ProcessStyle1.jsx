@@ -22,6 +22,7 @@ const locationData = [
     title: "Prime Drug Testing BFL",
     location: "8500 Harris Road, Bakersfield, CA",
     email: "bfl@drugtestingsites.com",
+    phone: "(661) 833-3700",
   },
   {
     id: "3",
@@ -31,6 +32,7 @@ const locationData = [
     title: "Prime Drug Testing Lathrop",
     location: "143 D'Arcy Parkway, Lathrop, CA",
     email: "lathrop@drugtestingsites.com",
+    phone: "(209) 417-6300",
   },
 ];
 
