@@ -238,7 +238,7 @@ const trainingCourses = [
 const EmployeeTrainingPricing = ({}) => {
   const [expanded, setExpanded] = useState(null);
   return (
-    <>
+    <div className="container">
       <div className="row g-3">
         {trainingCourses.map((course) => (
           <CourseCard
@@ -251,7 +251,7 @@ const EmployeeTrainingPricing = ({}) => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

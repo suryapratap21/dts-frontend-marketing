@@ -57,13 +57,13 @@ const drugTestsList = [
 
 const DrugTestsPricing = ({}) => {
   return (
-    <>
+    <div className="container">
       <div className="row g-3">
         {drugTestsList.map((test) => (
           <TestPricingElement test={test} key={test.id} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
