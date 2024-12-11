@@ -63,7 +63,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
               </Link>
             </li>
             <li>
-              <Link href="/pricing/employee-training">Employee Training</Link>
+              <Link href="/pricing/driver-education">Driver Education</Link>
             </li>
             <li>
               <Link href="/pricing/drug-test">Immediate Drug Test</Link>

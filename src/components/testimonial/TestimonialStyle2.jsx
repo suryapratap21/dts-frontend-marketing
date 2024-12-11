@@ -42,7 +42,7 @@ const TestimonialStyle2 = () => {
                 modules={[Keyboard, Autoplay, Pagination]}
                 freeMode={true}
                 grabCursor={true}
-                autoplay={false}
+                autoplay={true}
                 centeredSlides={true}
                 initialSlide={1}
                 slidesPerView={1}

@@ -18,34 +18,6 @@ const ServiceDetailsPage = () => {
               <div className="services-details-items">
                 <div className="row">
                   <div className="col-xl-4 col-lg-5 mt-md-120 services-sidebar">
-                    {/* <div className="single-widget services-list-widget">
-                      <h4 className="widget-title">DOT Drug Tests</h4>
-                      <div className="content">
-                        <ul>
-                      {[
-                        "pre-employment",
-                        "post-accident",
-                        "random",
-                        "reasonable-suspicion",
-                        "return-to-duty",
-                        "follow-up",
-                      ].map((service) => (
-                        <li
-                          className={`cursor-pointer ${
-                            selected === service ? "current-item" : ""
-                          }`}
-                          onClick={() => setSelected(service)}
-                          key={service}
-                        >
-                          {service
-                            .replace(/-/g, " ")
-                            .replace(/^\w/, (c) => c.toUpperCase())}
-                        </li>
-                      ))}
-                    </ul>
-                      </div>
-                    </div> */}
-
                     <div
                       className="single-widget bg-dark quick-contact-widget text-light d-none d-md-block"
                       style={{

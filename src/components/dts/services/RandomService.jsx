@@ -1,4 +1,5 @@
 import React from "react";
+import CtaButton from "./CtaButton";
 
 const RandomService = () => {
   return (
@@ -152,6 +153,7 @@ const RandomService = () => {
           </div>
         </div>
       </div>
+      <CtaButton />
     </>
   );
 };

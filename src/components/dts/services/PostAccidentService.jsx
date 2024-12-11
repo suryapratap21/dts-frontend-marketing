@@ -1,4 +1,5 @@
 import React from "react";
+import CtaButton from "./CtaButton";
 
 const PostAccidentService = () => {
   return (
@@ -72,6 +73,7 @@ const PostAccidentService = () => {
           </div>
         </div>
       </div>
+      <CtaButton />
     </>
   );
 };

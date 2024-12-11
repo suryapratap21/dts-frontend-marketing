@@ -1,4 +1,5 @@
 import React from "react";
+import CtaButton from "./CtaButton";
 
 const PreEmploymentService = () => {
   return (
@@ -49,6 +50,7 @@ const PreEmploymentService = () => {
             </div>
           </div>
         </div>
+        <CtaButton />
       </div>
     </>
   );
