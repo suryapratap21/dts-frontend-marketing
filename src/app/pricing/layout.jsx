@@ -11,7 +11,7 @@ const PricingLayout = ({ children }) => {
       <div
         className={`pricing-style-one-area services-details-items default-padding bottom-less primary`}
       >
-        <div className="container">{children}</div>
+        <div className="">{children}</div>
       </div>
     </LayoutStyle7>
   );

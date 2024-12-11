@@ -7,9 +7,9 @@ export const metadata = {
 
 const PricingPage = () => {
   return (
-    <>
+    <div className="container">
       <PackagePricing />
-    </>
+    </div>
   );
 };
 

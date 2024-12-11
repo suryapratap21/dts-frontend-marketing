@@ -13,6 +13,10 @@ const SingleFeature3 = ({ feature }) => {
             width={600}
             height={350}
             alt="Image Not Found"
+            objectFit="cover"
+            style={{
+              width: "100%",
+            }}
           />
         </div>
         <div className="info">

@@ -1,0 +1,152 @@
+{
+  "owner-operator": [
+    {
+      "id": "1",
+      "title": "Consortium Only Membership",
+      "subTitle": "Includes DOT-Required Consortium",
+      "price": "129",
+      "drugTests": [
+        {
+          "name": "Urine Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Random Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Breath Alcohol Drug Test",
+          "price": "75"
+        }
+      ],
+      "features": [
+        "DOT Requirement: Random consortium enrollment (includes enrollment certificate & random selections)",
+        "Access to cloud-based software to order drug testing & view results electronically 24/7",
+        "Laboratory and Medical Review Officer (MRO) Services",
+        "Test result processing & reporting",
+        "Access to 10,000+ nationwide collection sites",
+        "Annual Statistical Tracking & Reporting and Complete Audit Support",
+        "Unlimited Consulting"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "DOT: Complete Compliance Membership",
+      "subTitle": "Includes DOT-Required Consortium + Clearinghouse Management",
+      "price": "225",
+      "drugTests": [
+        {
+          "name": "Urine Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Random Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Breath Alcohol Drug Test",
+          "price": "75"
+        }
+      ],
+      "features": [
+        "DOT Requirement: Random consortium enrollment (includes enrollment certificate & random selections)",
+        "Access to cloud-based software to order drug testing & view results electronically 24/7",
+        "Laboratory and Medical Review Officer (MRO) Services",
+        "Test result processing & reporting",
+        "Access to 10,000+ nationwide collection sites",
+        "Annual Statistical Tracking & Reporting and Complete Audit Support",
+        "Clearinghouse Reporting (including running all required Queries, reporting Return-to-Duty & Follow-Up test results, and reporting violations)",
+        "Unlimited Consulting"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Clearinghouse Only Membership",
+      "subTitle": "Clearinghouse Management",
+      "price": "129",
+      "drugTests": [],
+      "features": [
+        "FMCSA Clearinghouse Reporting",
+        "Conducting all required Queries (Pre-Employment + Annual)",
+        "Reporting Return-to-Duty & Follow-Up test results",
+        "Reporting violations",
+        "Unlimited Consulting"
+      ]
+    }
+  ],
+  "fleet": [
+    {
+      "id": "4",
+      "title": "Consortium Only Membership",
+      "subTitle": "Includes DOT-Required Consortium",
+      "price": "199",
+      "drugTests": [
+        {
+          "name": "Urine Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Random Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Breath Alcohol Drug Test",
+          "price": "75"
+        }
+      ],
+      "features": [
+        "DOT Requirement: Random consortium enrollment (includes enrollment certificate & random selections)",
+        "Access to cloud-based software to order drug testing & view results electronically 24/7",
+        "Laboratory and Medical Review Officer (MRO) Services",
+        "Test result processing & reporting",
+        "Access to 10,000+ nationwide collection sites",
+        "Annual Statistical Tracking & Reporting and Complete Audit Support",
+        "Unlimited Consulting"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "DOT: Complete Compliance Membership",
+      "subTitle": "Includes DOT-Required Consortium + Clearinghouse Management",
+      "price": "350",
+      "drugTests": [
+        {
+          "name": "Urine Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Random Drug Test",
+          "price": "60"
+        },
+        {
+          "name": "Breath Alcohol Drug Test",
+          "price": "75"
+        }
+      ],
+      "features": [
+        "DOT Requirement: Random consortium enrollment (includes enrollment certificate & random selections)",
+        "Access to cloud-based software to order drug testing & view results electronically 24/7",
+        "Laboratory and Medical Review Officer (MRO) Services",
+        "Test result processing & reporting",
+        "Access to 10,000+ nationwide collection sites",
+        "Annual Statistical Tracking & Reporting and Complete Audit Support",
+        "Clearinghouse Reporting (including running all required Queries, reporting Return-to-Duty & Follow-Up test results, and reporting violations)",
+        "Unlimited Consulting"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Clearinghouse Membership Only",
+      "subTitle": "Clearinghouse Management",
+      "price": "199",
+      "drugTests": [],
+      "features": [
+        "FMCSA Clearinghouse Reporting",
+        "Conducting all required Queries (Pre-Employment + Annual)",
+        "Reporting Return-to-Duty & Follow-Up test results",
+        "Reporting violations",
+        "Unlimited Consulting"
+      ]
+    }
+  ]
+}

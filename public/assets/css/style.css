@@ -394,6 +394,10 @@ p {
     # Helper CSS
 =================================================================== */
 
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
 @media (min-width: 1250px) {
   .container,
   .container-lg,
@@ -407,8 +411,8 @@ p {
 
 .container-full {
   padding: 0 15px;
-  margin: auto;
-  max-width: 1400px;
+  margin: 0 auto;
+  max-width: 1500px;
 }
 
 @media (min-width: 576px) {
@@ -6247,10 +6251,19 @@ p {
 =================================================================== */
 
 .pricing-style-one {
-  border: 1px solid #e7e7e7;
+  border: 2px solid #e7e7e7;
   position: relative;
   z-index: 1;
   border-radius: 10px;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease;
+}
+.pricing-style-one:hover {
+  top: -4px;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  border-color: var(--color-primary);
+  border-width: 2px;
 }
 
 .pricing-style-one .pricing-deselect-button {
@@ -6269,9 +6282,15 @@ p {
   position: relative;
 }
 
+.pricing-style-one .pricing-list {
+  padding: 25px 0;
+}
+.pricing-style-one .pricing-list li {
+  display: block !important;
+}
 .pricing-style-one .pricing-content-list {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #e7e7e7;
+  padding-top: 25px;
+  border-top: 1px solid #e7e7e7;
 }
 .pricing-style-one.active .pricing-content-list {
   border-bottom: 1px solid var(--color-secondary);
@@ -6305,6 +6324,43 @@ p {
 
 .pricing-style-one .pricing-header p {
   margin: 0;
+}
+
+.pricing-style-one.card {
+  border-width: 2px;
+  position: relative;
+  top: 0px;
+  transition: all 0.2s ease;
+}
+.pricing-style-one.card:hover {
+  border: 2px solid var(--color-primary);
+  top: -4px;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+
+.pricing-style-one .pricing-content .price-icon-circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.pricing-style-one .pricing-content .price-icon-circle i {
+  font-size: 100px;
+  transition: all 0.2s ease;
+}
+
+.pricing-style-one.card:hover .price-icon-circle {
+  border: 2px solid var(--color-primary);
+}
+.pricing-style-one.card:hover .price-icon-circle i {
+  color: var(--color-primary);
 }
 
 .pricing-style-one .pricing-content h2 {
